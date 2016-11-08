@@ -1,4 +1,10 @@
-<< unity obj loader >>
+# Unity OBJ Loader
+
+- [Rich Logan](http://github.com/RichLogan) @ 08/11/16
+    - Added support for Unity 5
+    - Removed responsibility of file loading
+    - Material support removed until I get round to fixing it
+
 Project home: https://github.com/hammmm/unity-obj-loader
 
 This project is to achieve good-enough runtime OBJ file importing for Unity3D,
@@ -13,4 +19,3 @@ Notes:
  - please put all texture files on the same directory of . obj file.
  - please use use this form of URL for local files. ex) file:///Users/someone/somepath/model.obj
  - Bump map is not correctly working. TODO: convert hight map to normal map, make tangent data.
-
